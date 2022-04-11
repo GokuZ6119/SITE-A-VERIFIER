@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+    background-color: #c39911;
+}
+html{
+    height: 100%;
+   }
+body{
+    background: linear-gradient(#4f85c3,#c39911);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+/*Message animé BVN chez VGOSSET services*/
+div#bvn p {
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+    font-family: Hack, sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #c39911, #4f85c3, #c39911);
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 5s linear infinite;
+    position: relative;
+}
+  
+@keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+}
+/*Nav-bar*/
+nav{
+    border-top: 3px solid #4f85c3;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 3px solid #4f85c3;
+}
+nav a img{
+    position: relative;
+    width: 150px;
+    background-color: #fff;
+
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 140px;
+    background-color: #fff;
+
+}
+nav .onglets a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    background-color: #fff;
+
+}
+nav .onglets a:hover{
+    text-decoration: none;
+    color: #c39911;
+    margin-right: 10px;
+    border-bottom: 1px solid #c39911;
+    padding-bottom: 5px;
+    background-color: #fff;
+
+}
+header{
+    background: url('../IMG/logo2.jpg');
+}
+#container{
+    width: 1050px;
+    min-height: 100%;
+    background-color: #fff;
+    margin: auto;
+}
+/*Titre prestations*/
+#container h4{
+    background-color: #fff;
+    text-align: center;
+    font-style: normal;
+}
+/*Paragraphe sur les services pour les particlier*/
+#container p{
+    background-color: #fff;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    top: 5px;
+    font-style: normal;
+}
+/*IMG 50% de réduc sur les impots*/
+div#container img {
+    position: relative;
+    background-color: white;
+    width: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*IMG de tonte sur la page d'accueil*/
+div#container section img {
+    top: 100px;
+    width: 450px;
+    background-color: #fff;
+    position: relative;
+    left: 10px;
+}
+/*Message "en cours" pour les services pro*/
+#container h1 {
+    font-size: 30px;
+    background-color: transparent;
+    text-align: center;
+}
+/*Message de tarifs uniquement sur RDV*/
+#container h3 {
+    font-size: 30px;
+    background-color: transparent;
+    text-align: center;
+    top: 10px;
+    position: relative;
+}
+/*Bas de page*/
+footer {
+    background-color: #ddd;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+}
+footer a {
+    background-color: #ddd;
+}
+.banner {
+  position: relative;
+}
+.banner .container {
+  display: flex;
+  justify-content: center;
+}
+.banner .container .col50 {
+  width: 50%;
+}
+.banner .container .col50 .textBx {
+  padding-left: 50px;
+  top: 175px;
+  position: relative;
+}
+.banner .container .col50 .textBx p {
+  color: #000;
+  padding: 0 100px 0 0;
+}
